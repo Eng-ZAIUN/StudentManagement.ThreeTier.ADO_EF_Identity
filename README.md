@@ -54,14 +54,17 @@ Entity Framework Identity:
 أمان وإدارة حديثة وسريعة للمستخدمين والأدوار.
 
 هيكلية المشروع
-plaintext
-Copy
-Edit
+
+
 StudentApi
-│
+
+
 ├── StudentApi               # الطبقة العليا (API)
+
 ├── StudentAPIBusinessLayer  # طبقة الأعمال (الخدمات، النماذج، الواجهات)
+
 ├── StudentDataAccessLayer   # طبقة البيانات (ADO.NET، EF Identity، النماذج، الهجرات)
+
 
 ---
 
